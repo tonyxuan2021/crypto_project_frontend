@@ -26,9 +26,6 @@ const Header = () => {
 
   const darkTheme = createTheme({
     palette: {
-      //   primary: {
-      //     main: "#fff",
-      //   },
       mode: "dark",
     },
   });
@@ -53,6 +50,7 @@ const Header = () => {
               >
                 <MenuItem value={"usd"}>USD</MenuItem>
                 <MenuItem value={"cny"}>CNY</MenuItem>
+                <MenuItem value={"cad"}>CAD</MenuItem>
               </Select>
             </Toolbar>
           </Container>
